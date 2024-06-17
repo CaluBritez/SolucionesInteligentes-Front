@@ -7,7 +7,7 @@ import dani from '../assets/Dani.jpeg'
 
 function Nosotros() {
     return(
-        <div id="cuerpo">
+        <div id="box-Noso">
             <div id='box-developers'>
                 <div id='calu' className='dev'>
                     <div className='dev-pic'>

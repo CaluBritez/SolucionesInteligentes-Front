@@ -8,7 +8,7 @@ import { GiInjustice } from "react-icons/gi";
 
 function Informacion() {
     return(
-        <div id="cuerpo">
+        <div id="box-Info">
             <div id='caja-izq'>
                 <img  id='img-cajaizq' src={gato} alt="" />
             </div>

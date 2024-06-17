@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css'
 
 
-function Header() {
+function Header({ onNavClick }) {
     return(
         <div id='header'>
             <div id='nav-box'>
@@ -13,9 +13,9 @@ function Header() {
                     </Link>
                 </div>
                 <div id='botonera'>
-                    <button>Información</button>
-                    <button >Nosotros</button>
-                    <button >Contacto</button>
+                    <button onClick={() => onNavClick('Informacion')}>Información</button>
+                    <button onClick={() => onNavClick('Nosotros')}>Nosotros</button>
+                    <button onClick={() => onNavClick('Contacto')}>Contacto</button>
                 </div>
                 
             </div>    
